@@ -1,8 +1,8 @@
 .card.w11dark {
-  background-color: white;
+  background-color: #242424 !important;
 }
 .card.w11light {
-  background-color: black !important;
+  background-color: #242424 !important;
 }
 pre {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -20,10 +20,16 @@ pre {
   background-color: black;
 }
 .header.w11light {
-  background-color: #242424;
+  background-color: #242424 !important;
 }
 .header.w11dark {
-  background-color: #242424;
+  background-color: #242424 !important;
+}
+.header.w11light * {
+  color: white;
+}
+.header.w11dark * {
+  color: white;
 }
 .container.w11light {
   background-color: white;
@@ -38,7 +44,7 @@ pre {
   color: white;
 }
 .card.w11dark * {
-  color: black;
+  color: white;
 }
 .card.w11light * {
   color: white;
