@@ -22,7 +22,9 @@
   <h1>WinInfo by JaydenDevelopment</h1>
   <p>Dynamic WebApp with information about Windows builds.</p>
   <div class="card {selectedTheme}">
-
+    <pre>
+      <p style="text-align: center"> Name        Build        Release Date        Codename</p>
+    </pre>
   {#each windowslist as windows}
       <pre>
         <p style="text-align: center"> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
