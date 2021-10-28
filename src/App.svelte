@@ -22,6 +22,7 @@
   <h1>WinInfo by JaydenDevelopment</h1>
   <p>Dynamic WebApp with information about Windows builds.</p>
   <div class="card {selectedTheme}">
+
   {#each windowslist as windows}
       <pre>
         <p> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
@@ -53,14 +54,11 @@
   
   .card {
     height: 50%;
-    width: 50%;
+    width: 35%;
     background-color: white;
     border-radius: 5pt;
     color: black;
-    padding-top: 2pt;
-    padding-bottom: 2pt;
-    padding-left: 1pt;
-    padding-right: 1pt;
+    padding: 1pt;
   }
 
 </style>
