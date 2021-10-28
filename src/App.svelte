@@ -50,10 +50,9 @@
     border-collapse: seperate;
     border-spacing: 10px;
   }
-  th, td {
-    margin: 12px 12px 12px 12px;
-    padding: 12px 12px 12px 12px;
+  /* th, td {
   }
+  */
   pre {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
