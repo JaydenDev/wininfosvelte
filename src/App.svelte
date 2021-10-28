@@ -27,7 +27,6 @@
         <p> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
       </pre>
     </div>
-    <br />
   {/each}
 </div>
 
