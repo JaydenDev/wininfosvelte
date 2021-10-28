@@ -40,8 +40,8 @@
   }
   
   .container {
-    width: 100vw;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 100%;
     padding: none;
     margin: none;
   }
@@ -52,7 +52,6 @@
     background-color: white;
     border-radius: 5pt;
     color: black;
-    padding: 5px;
   }
 
 </style>
