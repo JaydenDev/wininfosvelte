@@ -55,7 +55,7 @@
   }
   
   .card {
-    font-size: 20pt;
+    font-size: 10pt;
     height: 50%;
     width: 35%;
     background-color: white;
