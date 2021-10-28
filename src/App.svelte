@@ -50,7 +50,7 @@
     border-collapse: collapse;
   }
   th, td {
-    border: 0px;
+    padding: 0 15px;
   }
   pre {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
