@@ -21,6 +21,9 @@
   </select>
   <h1>WinInfo by JaydenDevelopment</h1>
   <p>Dynamic WebApp with information about Windows builds.</p>
+  <div class="header {selectedTheme}">
+
+  </div>
   <div class="card {selectedTheme}">
   <table>
     <tr>
@@ -66,8 +69,15 @@
     margin: none;
   }
   
+  .header {
+    text-align: center;
+    font-size: 12pt;
+    height: 50%;
+    width: 35%;
+    border-radius: 5pt;
+  }
   .card {
-    font-size: 10pt;
+    font-size: 15pt;
     height: 50%;
     width: 35%;
     background-color: white;
