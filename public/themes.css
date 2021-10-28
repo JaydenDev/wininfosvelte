@@ -19,6 +19,12 @@ pre {
 .btn.w11light {
   background-color: black;
 }
+.header.w11light {
+  background-color: #242424;
+}
+.header.w11dark {
+  background-color: #242424;
+}
 .container.w11light {
   background-color: white;
 }
