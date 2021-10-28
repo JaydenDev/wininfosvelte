@@ -24,6 +24,7 @@
   <div class="header {selectedTheme}">
     <p>Release Builds</p>
   </div>
+  <br>
   <div class="card {selectedTheme}">
   <table>
     <tr>
