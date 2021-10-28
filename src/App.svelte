@@ -48,10 +48,13 @@
   
   table {
     table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
   }
-  /* th, td {
+  th, td {
+    padding: 0;
   }
-  */
+  
   pre {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
