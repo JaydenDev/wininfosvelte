@@ -43,6 +43,7 @@
     table-layout: fixed;
     border-collapse: collapse;
     border-spacing: 0;
+    margin: 0 auto;
   }
   td, th {
     width: 100px;
