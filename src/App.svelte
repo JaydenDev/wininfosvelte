@@ -23,17 +23,9 @@
   <p>Dynamic WebApp with information about Windows builds.</p>
   {#each windowslist as windows}
     <div class="card {selectedTheme}">
-      <p>
-        {windows.name}
-        <br />
-        Build: {windows.build}
-        <br />
-        Released: {windows.rel}
-        <br />
-        EOL: {windows.eol}
-        <br />
-        <!-- Last Update: {windows.last} -->
-      </p>
+      <pre>
+        {windows.name}    {windows.build}    {windows.rel}    {windows.codename}
+      </pre>
     </div>
     <br />
   {/each}
