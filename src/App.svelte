@@ -47,7 +47,10 @@
   } */
   
   table {
-    border: 1px;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 0px;
   }
   pre {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
