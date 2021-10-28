@@ -52,7 +52,7 @@
   }
   
   .card {
-    height: 100%;
+    height: 50%;
     width: 50%;
     background-color: white;
     border-radius: 5pt;
