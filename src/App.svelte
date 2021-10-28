@@ -25,7 +25,7 @@
 
   {#each windowslist as windows}
       <pre>
-        <p> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
+        <p style="text-align: center"> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
         <hr style="width: 100%">
       </pre>
   {/each}
@@ -53,6 +53,7 @@
   }
   
   .card {
+    font-size: 20pt;
     height: 50%;
     width: 35%;
     background-color: white;
