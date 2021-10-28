@@ -53,6 +53,10 @@
     background-color: white;
     border-radius: 5pt;
     color: black;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    padding-left: 1pt;
+    padding-right: 1pt;
   }
 
 </style>
