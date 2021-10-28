@@ -22,7 +22,7 @@
   <h1>WinInfo by JaydenDevelopment</h1>
   <p>Dynamic WebApp with information about Windows builds.</p>
   <div class="header {selectedTheme}">
-
+    <p>Release Builds</p>
   </div>
   <div class="card {selectedTheme}">
   <table>
@@ -77,7 +77,7 @@
     border-radius: 5pt;
   }
   .card {
-    font-size: 15pt;
+    font-size: 12pt;
     height: 50%;
     width: 35%;
     background-color: white;
