@@ -43,12 +43,12 @@
     table-layout: fixed;
     border-collapse: collapse;
     border-spacing: 0;
-    margin: 0 auto;
+    width: 85%;
   }
   td, th {
     width: 100px;
-    padding-bottom: 2pt;
-    padding-top: 2pt;
+    padding-bottom: 4pt;
+    padding-top: 4pt;
   }
   
   * {
