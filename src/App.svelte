@@ -72,6 +72,7 @@
   .header {
     text-align: center;
     font-size: 12pt;
+    padding-bottom: 2pt;
     width: 35%;
     border-radius: 5pt;
   }
