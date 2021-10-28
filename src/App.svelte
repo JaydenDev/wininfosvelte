@@ -22,14 +22,11 @@
   <h1>WinInfo by JaydenDevelopment</h1>
   <p>Dynamic WebApp with information about Windows builds.</p>
   <div class="card {selectedTheme}">
-    <pre>
-      <p style="text-align: center"> Name        Build        Release Date        Codename</p>
-    </pre>
+  <p style="text-align: center"> Name        Build        Release Date        Codename</p>
+  <hr style="width: 100%">
   {#each windowslist as windows}
-      <pre>
-        <p style="text-align: center"> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
-        <hr style="width: 100%">
-      </pre>
+    <p style="text-align: center"> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
+    <hr style="width: 100%">
   {/each}
   </div>
 </div>
@@ -55,11 +52,10 @@
   }
   
   .card {
-    font-size: 15pt;
+    font-size: 10pt;
     height: 50%;
     width: 35%;
     background-color: white;
-    border-radius: 5pt;
     color: black;
     padding: 1pt;
   }
