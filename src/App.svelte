@@ -21,13 +21,13 @@
   </select>
   <h1>WinInfo by JaydenDevelopment</h1>
   <p>Dynamic WebApp with information about Windows builds.</p>
+  <div class="card {selectedTheme}">
   {#each windowslist as windows}
-    <div class="card {selectedTheme}">
       <pre>
         <p> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
       </pre>
-    </div>
   {/each}
+  </div>
 </div>
 
 <style>
@@ -50,6 +50,7 @@
     height: 100%;
     width: 75%;
     background-color: white;
+    border-radius: 5pt;
     color: black;
     padding: 5px;
   }
