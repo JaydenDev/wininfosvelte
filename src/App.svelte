@@ -25,6 +25,7 @@
   {#each windowslist as windows}
       <pre>
         <p> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
+        <hr style="width: 75%">
       </pre>
   {/each}
   </div>
