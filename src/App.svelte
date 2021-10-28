@@ -21,9 +21,6 @@
   </select>
   <h1>WinInfo by JaydenDevelopment</h1>
   <p>Dynamic WebApp with information about Windows builds.</p>
-  <div class="header {selectedTheme}">
-    <p>Release Builds</p>
-  </div>
   <div class="card {selectedTheme}">
   <table>
     <tr>
