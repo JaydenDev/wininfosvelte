@@ -47,8 +47,7 @@
   } */
   
   table {
-    border-collapse: seperate;
-    border-spacing: 10px;
+    table-layout: fixed;
   }
   /* th, td {
   }
