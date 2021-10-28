@@ -51,8 +51,8 @@
     border-collapse: collapse;
     border-spacing: 0;
   }
-  th, td {
-    padding: 0;
+  td {
+    width: 100px;
   }
   
   pre {
