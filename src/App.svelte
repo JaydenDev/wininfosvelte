@@ -46,6 +46,8 @@
   }
   td, th {
     width: 100px;
+    padding-bottom: 2pt;
+    padding-top: 2pt;
   }
   
   * {
