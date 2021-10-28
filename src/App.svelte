@@ -51,7 +51,7 @@
     border-collapse: collapse;
     border-spacing: 0;
   }
-  td {
+  td, th {
     width: 100px;
   }
   
