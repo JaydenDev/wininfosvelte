@@ -22,7 +22,6 @@
   <h1>WinInfo by JaydenDevelopment</h1>
   <p>Dynamic WebApp with information about Windows builds.</p>
   <div class="card {selectedTheme}">
-  {#each windowslist as windows}
   <table>
     <tr>
       <th>Name</th>
@@ -30,6 +29,7 @@
       <th>Codename</th>
       <th>EOL</th>
     </tr>
+    {#each windowslist as windows}
     <tr>
       <td>{windows.name}</td>
       <td>{windows.build}</td>
