@@ -25,7 +25,7 @@
   {#each windowslist as windows}
       <pre>
         <p> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
-        <hr style="width: 75%">
+        <hr style="width: 100%">
       </pre>
   {/each}
   </div>
@@ -36,6 +36,10 @@
     border-radius: 5pt;
   } */
   
+  pre {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+
   * {
     color: white;
   }
@@ -49,7 +53,7 @@
   
   .card {
     height: 100%;
-    width: 75%;
+    width: 50%;
     background-color: white;
     border-radius: 5pt;
     color: black;
