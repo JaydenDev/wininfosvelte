@@ -47,10 +47,12 @@
   } */
   
   table {
-    border-collapse: collapse;
+    border-collapse: seperate;
+    border-spacing: 10px;
   }
   th, td {
-    padding: 0 15px;
+    margin: 12px 12px 12px 12px;
+    padding: 12px 12px 12px 12px;
   }
   pre {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
