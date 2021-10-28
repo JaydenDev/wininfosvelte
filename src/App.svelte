@@ -24,7 +24,7 @@
   {#each windowslist as windows}
     <div class="card {selectedTheme}">
       <pre>
-        {windows.name}    {windows.build}    {windows.rel}    {windows.codename}
+        <p> {windows.name}    {windows.build}    {windows.rel}    {windows.codename} </p>
       </pre>
     </div>
     <br />
@@ -49,10 +49,9 @@
   
   .card {
     height: 100%;
-    width: 100%;
+    width: 75%;
     background-color: white;
     border-radius: 5pt;
-    width: 200px;
     color: black;
     padding: 5px;
   }
