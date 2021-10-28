@@ -50,7 +50,6 @@
     height: 100%;
     width: 75%;
     background-color: white;
-    border-radius: 5pt;
     color: black;
     padding: 5px;
   }
