@@ -71,6 +71,7 @@
     height: 50%;
     width: 35%;
     background-color: white;
+    border-radius: 5pt;
     color: black;
     padding: 1pt;
   }
