@@ -19,6 +19,7 @@
     {#each windowslist as windows}
     <tr>
       <td>{windows.name}</td>
+      <td>{windows.type}</td>
       <td>{windows.build}</td>
       <td>{windows.codename}</td>
       <td>{windows.eol}</td>
