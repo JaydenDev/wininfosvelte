@@ -1,6 +1,7 @@
 let windowslist = [
 		{
 			"name": "Windows 11",
+			"type": "Stable",
 			"build": "21H2",
 			"codename": "Sun Valley",
 			"rel": "2021",
@@ -15,6 +16,7 @@ let windowslist = [
 		},
 		{
 			"name": "Windows 10",
+			"type": "Stable",
 			"build": "21H1",
 			"codename": "Redstone",
 			"rel": "2015",
@@ -22,6 +24,7 @@ let windowslist = [
 		},
 		{
 			"name": "Windows 8/8.1",
+			"type": "Stable",
 			"build": "Contribute",
 			"codename": "Blue",
 			"rel": "Contribute",
@@ -29,6 +32,7 @@ let windowslist = [
 		},
 		{
 			"name": "Windows 7",
+			"type": "Stable",
 			"build": "NT 6.1",
 			"codename": "Blackcomb",
 			"rel": "2009",
@@ -36,6 +40,7 @@ let windowslist = [
 		},
 		{
 			"name": "Windows XP",
+			"type": "Stable",
 			"build": "NT 5.1",
 			"codname": "Whistler",
 			"eol": "2014"
