@@ -25,7 +25,7 @@ let windowslist = [
 		{
 			"name": "Windows 8/8.1",
 			"type": "Stable",
-			"build": "Contribute",
+			"build": "NT 6.2",
 			"codename": "Blue",
 			"rel": "Contribute",
 			"eol": "2023"
@@ -42,7 +42,7 @@ let windowslist = [
 			"name": "Windows XP",
 			"type": "Stable",
 			"build": "NT 5.1",
-			"codname": "Whistler",
+			"codename": "Whistler",
 			"eol": "2014"
 		}
 	]
