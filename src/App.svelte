@@ -14,6 +14,7 @@
       <th>Name</th>
       <th>Type/Channel</th>
       <th>Build</th>
+      <th>Released</th>
       <th>Codename</th>
       <th>EOL</th>
     </tr>
@@ -22,6 +23,7 @@
       <td>{windows.name}</td>
       <td>{windows.type}</td>
       <td>{windows.build}</td>
+      <td>{windows.rel}</td>
       <td>{windows.codename}</td>
       <td>{windows.eol}</td>
     </tr>
