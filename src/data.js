@@ -10,9 +10,9 @@ let windowslist = [
 		{ "name": "Windows 10 (21H2)",
 		  "type": "Release Preview",
 		  "build": "21H2",
-		  "codename": "n/a",
+		  "codename": "N/A",
 		  "rel": "2021",
-		  "eol": "n/a"
+		  "eol": "2025"
 		},
 		{
 			"name": "Windows 10",
@@ -27,7 +27,7 @@ let windowslist = [
 			"type": "Stable",
 			"build": "NT 6.2",
 			"codename": "Blue",
-			"rel": "Contribute",
+			"rel": "2013",
 			"eol": "2023"
 		},
 		{
@@ -43,6 +43,7 @@ let windowslist = [
 			"type": "Stable",
 			"build": "NT 5.1",
 			"codename": "Whistler",
+			"rel": "2001",
 			"eol": "2014"
 		}
 	]
