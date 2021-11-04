@@ -6,6 +6,13 @@ let windowslist = [
 			"rel": "2021",
 			"eol": "N/A"
 		},
+		{ "name": "Windows 10 (21H2)",
+		  "type": "Release Preview",
+		  "build": "21H2",
+		  "codename": "n/a",
+		  "rel": "2021",
+		  "eol": "n/a"
+		},
 		{
 			"name": "Windows 10",
 			"build": "21H1",

@@ -12,6 +12,7 @@
   <table>
     <tr>
       <th>Name</th>
+      <th>Type/Channel</th>
       <th>Build</th>
       <th>Codename</th>
       <th>EOL</th>
