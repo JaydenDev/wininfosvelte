@@ -1,5 +1,6 @@
 let windowslist = [
 		{
+			"logo": "https://img.icons8.com/fluency/48/000000/windows-11.png",
 			"name": "Windows 11",
 			"type": "Stable",
 			"build": "21H2",
