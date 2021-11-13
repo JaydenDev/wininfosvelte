@@ -30,6 +30,7 @@ let windowslist = [
 			"platform": "x64, x32, ARM"
 		},
 		{
+			"logo": "https://img.icons8.com/color/48/000000/windows8.png",
 			"name": "Windows RT",
 			"type": "N/A",
 			"build": "6.3.9600",
@@ -39,6 +40,7 @@ let windowslist = [
 			"platform": "ARM"
 		},
 		{
+			"logo": "https://img.icons8.com/color/48/000000/windows8.png",
 			"name": "Windows 8/8.1",
 			"type": "Stable",
 			"build": "NT 6.2",
