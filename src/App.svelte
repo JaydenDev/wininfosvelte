@@ -9,7 +9,7 @@
   <h1>WinInfo by JaydenDevelopment</h1>
   <p>Dynamic WebApp with information about Windows builds.</p>
   <div class="card {selectedTheme}">
-  <table>
+  <table border=1 frame=hsides rules=rows>
     <tr>
       <th> </th>
       <th>Name</th>
