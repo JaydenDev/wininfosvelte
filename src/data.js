@@ -33,6 +33,7 @@ let windowslist = [
 			"rel": "October 26th, 2012",
 			"eol": "January 10th, 2023",
 			"platform": "ARM"
+		},
 		{
 			"name": "Windows 8/8.1",
 			"type": "Stable",
