@@ -49,7 +49,7 @@ let windowslist = [
 			"build": "NT 6.1",
 			"codename": "Blackcomb",
 			"rel": "2009",
-			"eol": "2020"
+			"eol": "2020",
 			"platform": "x64, x32"
 		},
 		{
