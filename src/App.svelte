@@ -11,6 +11,7 @@
   <div class="card {selectedTheme}">
   <table>
     <tr>
+      <th> </th>
       <th>Name</th>
       <th>Type/Channel</th>
       <th>Build</th>
@@ -21,6 +22,7 @@
     </tr>
     {#each windowslist as windows}
     <tr>
+      <td>{windows.logo}</td>
       <td>{windows.name}</td>
       <td>{windows.type}</td>
       <td>{windows.build}</td>
