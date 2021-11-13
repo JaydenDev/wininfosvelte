@@ -9,8 +9,9 @@ let windowslist = [
 			"eol": "N/A",
 			"platform": "x64, ARM"
 		},
+		{
 			"logo": "https://img.icons8.com/color/48/000000/windows-10.png",
-		{ 	"name": "Windows 10 (21H2)",
+			"name": "Windows 10 (21H2)",
 		  	"type": "Release Preview",
 		  	"build": "21H2",
 		  	"codename": "N/A",
