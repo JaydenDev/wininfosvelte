@@ -17,6 +17,7 @@
       <th>Released</th>
       <th>Codename</th>
       <th>EOL</th>
+      <th>Platform</th>
     </tr>
     {#each windowslist as windows}
     <tr>
@@ -26,6 +27,7 @@
       <td>{windows.rel}</td>
       <td>{windows.codename}</td>
       <td>{windows.eol}</td>
+      <td>{windows.platform}</td>
     </tr>
     {/each}
   </table>
