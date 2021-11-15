@@ -50,6 +50,7 @@ let windowslist = [
 			"platform": "x64, x32 ARM"
 		},
 		{
+			"logo": "https://www.logo.wine/a/logo/Windows_7/Windows_7-Logo.wine.svg",
 			"name": "Windows 7",
 			"type": "Stable",
 			"build": "NT 6.1",
