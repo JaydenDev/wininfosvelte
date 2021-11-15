@@ -22,7 +22,7 @@
     </tr>
     {#each windowslist as windows}
     <tr>
-      <td><img src={windows.logo}/></td>
+      <td><img src={windows.logo} length=20 width=20/></td>
       <td>{windows.name}</td>
       <td>{windows.type}</td>
       <td>{windows.build}</td>
