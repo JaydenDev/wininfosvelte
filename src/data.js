@@ -70,3 +70,15 @@ let windowslist = [
 		}
 	]
 export default windowslist;
+
+let linuxlist = [
+	{
+		"name": "Ubuntu 20.04",
+		"type": "LTS",
+		"build": "N/A",
+		"codename": "Focal Fossa",
+		"rel": "April 2020",
+		"eol": "Contribute",
+		"platform": "x64, x32, arm64, pi"
+	}
+]
