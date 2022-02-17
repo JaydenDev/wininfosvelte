@@ -82,3 +82,5 @@ let linuxlist = [
 		"platform": "x64, x32, arm64, pi"
 	}
 ]
+
+export default linuxlist;
