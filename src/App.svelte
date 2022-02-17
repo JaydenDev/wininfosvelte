@@ -1,7 +1,6 @@
 <script>
-  import windowslist from "./data";
+  import oslist from "./data";
   import themelist from "./themelist";
-  import linuxlist from "./data";
   import Notifications from "svelte-notifications";
   let selectedTheme = "w11dark";
 </script>
@@ -21,17 +20,17 @@
       <th>EOL</th>
       <th>Platform</th>
     </tr>
-    {#each windowslist as windows}
+    {#each oslist as os}
     <tr>
       <!-- svelte-ignore a11y-missing-attribute -->
       <td><img src={windows.logo} length=40 width=40></td>
-      <td>{windows.name}</td>
-      <td>{windows.type}</td>
-      <td>{windows.build}</td>
-      <td>{windows.rel}</td>
-      <td>{windows.codename}</td>
-      <td>{windows.eol}</td>
-      <td>{windows.platform}</td>
+      <td>{os.name}</td>
+      <td>{os.type}</td>
+      <td>{os.build}</td>
+      <td>{os.rel}</td>
+      <td>{os.codename}</td>
+      <td>{os.eol}</td>
+      <td>{os.platform}</td>
     </tr>
     {/each}
   </table>
