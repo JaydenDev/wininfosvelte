@@ -37,33 +37,6 @@
   </table>
   </div>
 </div>
-<div class="card {selectedTheme}">
-  <table border=1 frame=void rules=rows>
-    <tr>
-      <th> </th>
-      <th>Name</th>
-      <th>Type/Channel</th>
-      <th>Build</th>
-      <th>Released</th>
-      <th>Codename</th>
-      <th>EOL</th>
-      <th>Platform</th>
-    </tr>
-    {#each linuxlist as linux}
-    <tr>
-      <!-- svelte-ignore a11y-missing-attribute -->
-      <td><img src={linux.logo} length=40 width=40></td>
-      <td>{linux.name}</td>
-      <td>{linux.type}</td>
-      <td>{linux.build}</td>
-      <td>{linux.rel}</td>
-      <td>{linux.codename}</td>
-      <td>{linux.eol}</td>
-      <td>{linux.platform}</td>
-    </tr>
-    {/each}
-  </table>
-  </div>
 <label for="theme">Choose a theme: </label>
 <select name="theme" id="theme" bind:value={selectedTheme}>
   {#each themelist as theme}
