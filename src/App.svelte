@@ -23,7 +23,7 @@
     {#each oslist as os}
     <tr>
       <!-- svelte-ignore a11y-missing-attribute -->
-      <td><img src={windows.logo} length=40 width=40></td>
+      <td><img src={os.logo} length=40 width=40></td>
       <td>{os.name}</td>
       <td>{os.type}</td>
       <td>{os.build}</td>
