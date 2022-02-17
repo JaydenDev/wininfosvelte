@@ -66,6 +66,10 @@
     color: white;
   }
   
+  hr {
+    margin-left: 20px;
+  }
+  
   .container {
     width: 100%;
     min-height: 100%;
