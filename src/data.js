@@ -9,10 +9,10 @@ var logo_apple_default = "https://img.icons8.com/ios-filled/50/000000/mac-os.png
 let oslist = [
   {
     logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
-    name: "Windows 11 Insider Preview (Dev)",
-    type: "Insider Preview",
+    name: "Windows 11",
+    type: "Dev",
     build: "22557.1",
-    codename: "N/A",
+    codename: "Dev",
     rel: "N/A",
     eol: "N/A",
     platform: "x64, ARM",
