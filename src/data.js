@@ -161,5 +161,16 @@ let oslist = [
     platform: "arm64",
     download: unsupported_download_default,
   },
+  {
+    logo: logo_apple_default,
+    name: "MacOS Catalina",
+    type: "Stable",
+    build: "10.15.7",
+    codename: "Catalina",
+    rel: "October 2019",
+    eol: "November 2022",
+    platform: "x86_64, 32",
+    download: unsupported_download_default,
+  },
 ];
 export default oslist;
