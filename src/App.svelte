@@ -7,6 +7,7 @@
 <div class="container {selectedTheme}">
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
+  <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
   <div class="card {selectedTheme}">
   <table border=1 frame=void rules=rows>
     <tr>
@@ -37,7 +38,6 @@
   </table>
   </div>
 </div>
-<a href="https://forms.gle/4ffTLwd8raVbgrNJ7" style="text-align: center; background-color: black; color: white; left-margin: 20; right-margin: 20; width: 100%;">+</a>
 <!-- <label for="theme">Choose a theme: </label>
 <select name="theme" id="theme" bind:value={selectedTheme}>
   {#each themelist as theme}
