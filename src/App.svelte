@@ -3,10 +3,10 @@
   import themelist from "./themelist";
   let selectedTheme = "w11dark";
   
-  function itemSel() {
-    var item = document.getElementById("searchbox").value;
-    text.search(item);
-  }
+  //function itemSel() {
+    //var item = document.getElementById("searchbox").value;
+    //text.search(item);
+  //} sad :(
 </script>
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
