@@ -37,8 +37,8 @@
         <td>{os.platform}</td>
         <td><a href={os.download}>Download</a>
     </tr>
-    {/each}
     </datalist>
+    {/each}
   </table>
   </div>
 </div>
