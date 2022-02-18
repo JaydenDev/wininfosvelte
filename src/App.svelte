@@ -36,8 +36,8 @@
         <td>{os.eol}</td>
         <td>{os.platform}</td>
         <td><a href={os.download}>Download</a>
-    </tr>
     </datalist>
+    </tr>
     {/each}
   </table>
   </div>
