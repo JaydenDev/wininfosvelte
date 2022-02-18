@@ -144,10 +144,10 @@ let oslist = [
     name: "MacOS 12.1",
     type: "Stable",
     build: "OSX12_1",
-    codename: "Monteray",
+    codename: "Monterey",
     rel: "October 2021",
     eol: "N/A",
-    platform: "Apple Silicon arm64",
+    platform: "arm64",
     download: unsupported_download_default,
   },
   {
