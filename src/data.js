@@ -84,11 +84,20 @@ let oslist = [
     logo: logo_linux_default,
     name: "Ubuntu 20.04",
     type: "LTS",
-    build: "N/A",
+    build: "20.04.2_LTS_UBULINUX",
     codename: "Focal Fossa",
     rel: "April 2020",
-    eol: "Contribute",
-    platform: "x64, x32, arm64, pi",
+    eol: "April 2030",
+    platform: "x64, x32, arm64",
   },
+  {
+    logo: logo_linux_default,
+    name: "Ubuntu 21.04",
+    type: "LTS",
+    build: "21.04_LTS_UBULINUX",
+    codename: "Hirsute Hippo",
+    rel: "April 2021",
+    eol: "January 2022",
+    platform: "x64, x32, arm64",
 ];
 export default oslist;
