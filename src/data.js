@@ -150,5 +150,16 @@ let oslist = [
     platform: "Apple Silicon arm64",
     download: unsupported_download_default,
   },
+  {
+    logo: logo_apple_default,
+    name: "iPadOS/iOS 15",
+    type: "Stable",
+    build: "15.0",
+    codename: "N/A",
+    rel: "June 2021",
+    eol: "N/A",
+    platform: "arm64",
+    download: unsupported_software_default,
+  },
 ];
 export default oslist;
