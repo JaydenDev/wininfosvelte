@@ -99,5 +99,6 @@ let oslist = [
     rel: "April 2021",
     eol: "January 2022",
     platform: "x64, x32, arm64",
+  },
 ];
 export default oslist;
