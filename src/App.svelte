@@ -86,5 +86,7 @@
     color: black;
     padding: 1pt;
   }
-
+  a: hover {
+    color: #0D1117;
+  }
 </style>
