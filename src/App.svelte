@@ -22,11 +22,10 @@
       <th>Platform</th>
       <th>Download</th>
     </tr>
+    <datalist id="osdatlist">
     {#each oslist as os}
     <tr>
-        <datalist id="osdatlist">
-          <option>{os.name}</option>  
-        </datalist>
+        <option>{os.name}</option>  
         <!-- svelte-ignore a11y-missing-attribute -->
         <td><img src={os.logo} length=40 width=40></td>
         <td>{os.name}</td>
@@ -39,6 +38,7 @@
         <td><a href={os.download}>Download</a>
     </tr>
     {/each}
+    </datalist>
   </table>
   </div>
 </div>
