@@ -38,10 +38,10 @@
         <td><a href={os.download}>Download</a>
     </tr>
     {/each}
-    </datalist>
   </table>
   </div>
 </div>
+</datalist>
 <!-- <label for="theme">Choose a theme: </label>
 <select name="theme" id="theme" bind:value={selectedTheme}>
   {#each themelist as theme}
