@@ -21,6 +21,8 @@ pre {
 }
 .container.w11light {
   background-color: white;
+  width: 100vw;
+  height: 100vh;
 }
 .container.w11light * {
   color: black;
