@@ -35,12 +35,12 @@
   </table>
   </div>
 </div>
-<label for="theme">Choose a theme: </label>
+<!-- <label for="theme">Choose a theme: </label>
 <select name="theme" id="theme" bind:value={selectedTheme}>
   {#each themelist as theme}
     <option value={theme}>{theme}</option>
   {/each}
-</select>
+</select> -->
 
 <style>
   /* button {
