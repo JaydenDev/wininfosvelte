@@ -11,11 +11,12 @@
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
   <br>
+  <!-- webdev03/god286, I can't get any of this to work, please fix sad D:
   <input placeholder="Search OS" style="width: 50vw; color: black; border-radius: 5pt; outline: none;" type="text" id="searchbox" name="searchbox" list="osdatlist"> <button onClick="itemSel()" style="width: 50vw">Search</button>
   <datalist id="osdatlist">
   {#each oslist as os}
       <option>{os.name}</option>
-  {/each}
+  {/each} -->
   </datalist>
   <table border=1 frame=void rules=rows>
     <tr>
