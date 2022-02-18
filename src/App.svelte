@@ -89,4 +89,7 @@
   a:hover {
     color: #0D1117;
   }
+  p:hover {
+    color: #0D1117;
+  }
 </style>
