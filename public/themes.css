@@ -44,3 +44,9 @@ pre {
 #theme {
   color: black;
 }
+body.dark {
+  background-color: #0D1117;
+}
+body.light {
+  background-color: #FFFFFF
+}
