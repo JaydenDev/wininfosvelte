@@ -5,7 +5,6 @@
 </script>
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
-  <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
   <br>
   <input placeholder="Search OS" style="width: 100%; color: black; border-radius: 5pt; outline: none;" type="text" id="searchbox" name="searchbox" list="osdatlist">
   <datalist id="osdatlist">
