@@ -80,7 +80,7 @@
   .card {
     font-size: 12pt;
     height: 50%;
-    width: 85%;
+    width: 65%;
     background-color: white;
     border-radius: 5pt;
     color: black;
