@@ -37,7 +37,7 @@
   </table>
   </div>
 </div>
-<button style="text-align: center; background-color: black; color: white; left-margin: 20; right-margin: 20; width: 100%;">+</button>
+<button onClick="location.replace("https://forms.gle/4ffTLwd8raVbgrNJ7");" style="text-align: center; background-color: black; color: white; left-margin: 20; right-margin: 20; width: 100%;">+</button>
 <!-- <label for="theme">Choose a theme: </label>
 <select name="theme" id="theme" bind:value={selectedTheme}>
   {#each themelist as theme}
