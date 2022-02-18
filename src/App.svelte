@@ -61,10 +61,10 @@
     padding-top: 4pt;
   }
   td:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   th:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   * {
     color: white;
