@@ -1,3 +1,5 @@
+logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
+
 let oslist = [
   {
     logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
@@ -79,6 +81,7 @@ let oslist = [
     platform: "x64, x32",
   },
   {
+    logo: <img src=logo_linux_default/>,
     name: "Ubuntu 20.04",
     type: "LTS",
     build: "N/A",
