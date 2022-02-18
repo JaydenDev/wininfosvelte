@@ -8,6 +8,8 @@
     //text.search(item);
   //} sad :(
 </script>
+  <p>This is the beta version of WinInfo, expect to encounter issues</p>
+  <hr>
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
   <br>
