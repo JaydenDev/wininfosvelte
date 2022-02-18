@@ -26,6 +26,7 @@
     {#each oslist as os}
     <tr>
         <option>{os.name}</option>  
+        </datalist>
         <!-- svelte-ignore a11y-missing-attribute -->
         <td><img src={os.logo} length=40 width=40></td>
         <td>{os.name}</td>
@@ -36,8 +37,7 @@
         <td>{os.eol}</td>
         <td>{os.platform}</td>
         <td><a href={os.download}>Download</a>
-    </datalist>
-    </tr>
+      </tr>
     {/each}
   </table>
   </div>
