@@ -139,5 +139,16 @@ let oslist = [
     platform: "N/A",
     download: unsupported_download_default,
   },
+  {
+    logo: logo_apple_default,
+    name: "MacOS 12.1",
+    type: "Stable",
+    build: "OSX12_1",
+    codename: "Monteray",
+    rel: "October 2021",
+    eol: "N/A",
+    platform: "Apple Silicon arm64",
+    download: unsupported_download_default,
+  },
 ];
 export default oslist;
