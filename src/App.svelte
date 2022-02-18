@@ -3,6 +3,7 @@
   import themelist from "./themelist";
   let selectedTheme = "w11dark";
 </script>
+<div class="container {selectedTHeme}">
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
   <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
@@ -50,7 +51,6 @@
   /* button {
     border-radius: 5pt;
   } */
-  
   table {
     table-layout: fixed;
     border-collapse: collapse;
@@ -96,3 +96,4 @@
     padding: 1pt;
   }
 </style>
+</div>
