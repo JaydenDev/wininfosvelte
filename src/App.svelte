@@ -58,6 +58,12 @@
     padding-bottom: 4pt;
     padding-top: 4pt;
   }
+  td:hover {
+    color: #0D1117;
+  }
+  th:hover {
+    color: #0D1117;
+  }
   
   * {
     color: white;
@@ -85,11 +91,5 @@
     border-radius: 5pt;
     color: black;
     padding: 1pt;
-  }
-  a:hover {
-    color: #0D1117;
-  }
-  p:hover {
-    color: #0D1117;
   }
 </style>
