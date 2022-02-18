@@ -15,6 +15,7 @@
     <h1> Warning to MacOS Catalina Users </h1>
     <p> MacOS Catalina hits EOL in 9 months </p>
  </div>
+  &nbsp;
   <div style="background-color: crimson; width: fit-content; width: fit-content; color: white;">
     <h1> Warning to Windows 10 Users </h1>
     <p> Windows 10 hits EOL in 3 years, Computer "can't" run Windows 11? There's a solution! <a href="https://github.com/AveYo/MediaCreationTool.bat">here!</a></p>
