@@ -10,7 +10,7 @@
 </script>
   <p>This is the beta version of WinInfo, expect to encounter issues</p><a href="https://osinfo.vercel.app">Stable Version</a>
   <hr>
-  <div style="background-color: crimson; width: 100vw; width: 5vh; color: white;">
+  <div style="background-color: crimson; width: 100%; width: 5%; color: white;">
     <h1> Warning to MacOS Catalina Users </h1>
     <p> MacOS Catalina hits EOL in 9 months </p>
  </div>
