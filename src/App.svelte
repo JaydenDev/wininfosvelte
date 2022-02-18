@@ -51,7 +51,7 @@
     table-layout: fixed;
     border-collapse: collapse;
     border-spacing: 0;
-    width: 85%;
+    width: fit-content;
   }
   td, th {
     width: 100px;
