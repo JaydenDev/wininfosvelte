@@ -2,6 +2,8 @@ var logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
 var win11_download_default = "https://microsoft.com/software-download/windows11"
 var win10_download_default = "https://microsoft.com/software-download/windows10"
 var ubuntu_download_default = "https://ubuntu.com"
+var fedora_download_default = "https://getfedora.org"
+var unsupported_download_default = "https://example.org"
 
 let oslist = [
   {
@@ -13,6 +15,7 @@ let oslist = [
     rel: "N/A",
     eol: "N/A",
     platform: "x64, ARM",
+    download: unsupported_download_default,
   },
   {
     logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
@@ -56,6 +59,7 @@ let oslist = [
     rel: "October 26th, 2012",
     eol: "January 10th, 2023",
     platform: "ARM",
+    download: unsupported_download_default,
   },
   {
     logo: "https://img.icons8.com/color/48/000000/windows8.png",
@@ -66,6 +70,7 @@ let oslist = [
     rel: "2013",
     eol: "2023",
     platform: "x64, x32 ARM",
+    download: unsupported_download_default,
   },
   {
     logo: "https://www.logo.wine/a/logo/Windows_7/Windows_7-Logo.wine.svg",
@@ -76,6 +81,7 @@ let oslist = [
     rel: "2009",
     eol: "2020",
     platform: "x64, x32",
+    download: unsupported_download_default,
   },
   {
     logo: "https://img.icons8.com/color/48/000000/windows-logo.png",
@@ -86,6 +92,7 @@ let oslist = [
     rel: "2001",
     eol: "2014",
     platform: "x64, x32",
+    download: unsupported_download_default,
   },
   {
     logo: logo_linux_default,
@@ -118,6 +125,7 @@ let oslist = [
     rel: "November 2, 2021",
     eol: "December 2022",
     platform: "x32, x64, arm64",
+    download: fedora_download_default,
   },
 ];
 export default oslist;
