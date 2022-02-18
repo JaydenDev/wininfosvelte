@@ -4,7 +4,9 @@ html, body {
 	height: 100%;
 	background-color: #0D1117;
 	overflow-y: scroll;
-	overflow-x: scroll;
+	overflow-x: hidden;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
 }
 
 body {
