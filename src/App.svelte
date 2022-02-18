@@ -2,6 +2,11 @@
   import oslist from "./data";
   import themelist from "./themelist";
   let selectedTheme = "w11dark";
+
+  const handleKeyDown = (e) => {
+    console.log(e.target.value)
+    if(!e.target.value) return;
+  }
 </script>
 
 <div class="container {selectedTheme}">
@@ -9,7 +14,7 @@
   <p>The place to go for everything OS related</p>
   <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
   <br>
-  <input placeholder="Search OS" style="color: black;" type="text" id="searchbox" name="searchbox" list="osdatlist">
+  <input placeholder="Search OS" on:keydown={handleKeyDown} style="color: black;" type="text" id="searchbox" name="searchbox" list="osdatlist">
   <datalist id="osdatlist">
   {#each oslist as os}
       <option>{os.name}</option>
