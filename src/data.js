@@ -1,4 +1,4 @@
-logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
+var logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
 
 let oslist = [
   {
