@@ -86,7 +86,7 @@
     color: black;
     padding: 1pt;
   }
-  a: hover {
+  a:hover {
     color: #0D1117;
   }
 </style>
