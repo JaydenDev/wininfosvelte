@@ -23,7 +23,6 @@
     </tr>
     {#each oslist as os}
     <tr>
-      <div id={os.codename}>
         <!-- svelte-ignore a11y-missing-attribute -->
         <td><img src={os.logo} length=40 width=40></td>
         <td>{os.name}</td>
@@ -34,7 +33,6 @@
         <td>{os.eol}</td>
         <td>{os.platform}</td>
         <td><a href={os.download}>Download</a>
-      </div>
     </tr>
     {/each}
   </table>
