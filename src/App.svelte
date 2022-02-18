@@ -5,8 +5,8 @@
 </script>
 
 <div class="container {selectedTheme}">
-  <h1>OSInfo by JaydenDevelopment</h1>
-  <p>Dynamic WebApp with information about OS builds.</p>
+  <h1>OSInfo</h1>
+  <p>The place to go for everything OS related</p>
   <div class="card {selectedTheme}">
   <table border=1 frame=void rules=rows>
     <tr>
