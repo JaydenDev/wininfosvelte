@@ -2,11 +2,16 @@
   import oslist from "./data";
   import themelist from "./themelist";
   let selectedTheme = "w11dark";
+  
+  function itemSel() {
+    var item = document.getElementById("searchbox").value;
+    text.search(item);
+  }
 </script>
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
   <br>
-  <input placeholder="Search OS" style="width: 100%; color: black; border-radius: 5pt; outline: none;" type="text" id="searchbox" name="searchbox" list="osdatlist">
+  <input placeholder="Search OS" style="width: 50vw; color: black; border-radius: 5pt; outline: none;" type="text" id="searchbox" name="searchbox" list="osdatlist"> <button onClick="itemSel()" style="width: 50vw">Search</button>
   <datalist id="osdatlist">
   {#each oslist as os}
       <option>{os.name}</option>
