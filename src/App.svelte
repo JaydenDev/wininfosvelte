@@ -16,8 +16,8 @@
   <datalist id="osdatlist">
   {#each oslist as os}
       <option>{os.name}</option>
-  {/each} -->
-  </datalist>
+  {/each}
+  </datalist> -->
   <table border=1 frame=void rules=rows>
     <tr>
       <th> </th>
