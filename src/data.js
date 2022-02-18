@@ -81,7 +81,7 @@ let oslist = [
     platform: "x64, x32",
   },
   {
-    logo: <img src=logo_linux_default/>,
+    logo: logo_linux_default,
     name: "Ubuntu 20.04",
     type: "LTS",
     build: "N/A",
