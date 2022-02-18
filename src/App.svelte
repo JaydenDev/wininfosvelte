@@ -9,6 +9,11 @@
   <p>The place to go for everything OS related</p>
   <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
   <input style="color: black;" type="text" id="searchbox" name="searchbox" list="osdatlist">
+  {#each oslist as os}
+    <datalist id="osdatlist">
+      <option>{os.name}</option>
+    </datalist>
+  {/each}
   <div class="card {selectedTheme}">
   <table border=1 frame=void rules=rows>
     <tr>
@@ -22,11 +27,8 @@
       <th>Platform</th>
       <th>Download</th>
     </tr>
-    <datalist id="osdatlist">
     {#each oslist as os}
     <tr>
-        <option>{os.name}</option>  
-        </datalist>
         <!-- svelte-ignore a11y-missing-attribute -->
         <td><img src={os.logo} length=40 width=40></td>
         <td>{os.name}</td>
