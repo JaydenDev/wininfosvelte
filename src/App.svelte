@@ -3,7 +3,6 @@
   import themelist from "./themelist";
   let selectedTheme = "w11dark";
 </script>
-<div class="container {selectedTHeme}">
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
   <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
@@ -41,12 +40,12 @@
       </tr>
     {/each}
   </table>
-<label for="theme">Choose a theme: </label>
+<!-- <label for="theme">Choose a theme: </label>
 <select name="theme" id="theme" bind:value={selectedTheme}>
   {#each themelist as theme}
     <option value={theme}>{theme}</option>
   {/each}
-</select>
+</select> -->
 <style>
   /* button {
     border-radius: 5pt;
@@ -96,4 +95,3 @@
     padding: 1pt;
   }
 </style>
-</div>
