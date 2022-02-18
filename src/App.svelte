@@ -49,6 +49,9 @@
   /* button {
     border-radius: 5pt;
   } */
+  body {
+    background-color: #0D1117;
+  }
   table {
     table-layout: fixed;
     border-collapse: collapse;
