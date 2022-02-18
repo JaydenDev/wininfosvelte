@@ -1,4 +1,7 @@
 var logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
+var win11_download_default = "https://microsoft.com/software-download/windows11"
+var win10_download_default = "https://microsoft.com/software-download/windows10"
+var ubuntu_download_default = "https://ubuntu.com"
 
 let oslist = [
   {
@@ -20,6 +23,7 @@ let oslist = [
     rel: "2021",
     eol: "N/A",
     platform: "x64, ARM",
+    download: win11_download_default,
   },
   {
     logo: "https://img.icons8.com/color/48/000000/windows-10.png",
@@ -30,6 +34,7 @@ let oslist = [
     rel: "2021",
     eol: "2025",
     platform: "x64, x32, ARM",
+    download: win10_download_default,
   },
   {
     logo: "https://img.icons8.com/color/48/000000/windows-10.png",
@@ -40,6 +45,7 @@ let oslist = [
     rel: "2015",
     eol: "2025",
     platform: "x64, x32, ARM",
+    download: win10_download_default,
   },
   {
     logo: "https://img.icons8.com/color/48/000000/windows8.png",
@@ -90,6 +96,7 @@ let oslist = [
     rel: "April 2020",
     eol: "April 2030",
     platform: "x64, x32, arm64",
+    download: ubuntu_download_default,
   },
   {
     logo: logo_linux_default,
@@ -100,6 +107,7 @@ let oslist = [
     rel: "April 2021",
     eol: "January 2022",
     platform: "x64, x32, arm64",
+    download: ubuntu_download_default,
   },
   {
     logo: logo_linux_default,
