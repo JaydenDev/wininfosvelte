@@ -18,6 +18,7 @@
       <th>Codename</th>
       <th>EOL</th>
       <th>Platform</th>
+      <th>Download</th>
     </tr>
     {#each oslist as os}
     <tr>
@@ -30,6 +31,7 @@
       <td>{os.codename}</td>
       <td>{os.eol}</td>
       <td>{os.platform}</td>
+      <td><a href={os.download}>Download</a>
     </tr>
     {/each}
   </table>
