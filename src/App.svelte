@@ -8,7 +8,7 @@
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
   <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
-  <input type="text" id="searchbox" name="searchbox" list="osdatlist">
+  <input style="color: black;" type="text" id="searchbox" name="searchbox" list="osdatlist">
   <div class="card {selectedTheme}">
   <table border=1 frame=void rules=rows>
     <tr>
