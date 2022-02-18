@@ -72,6 +72,7 @@ let oslist = [
     platform: "x64, x32",
   },
   {
+    logo: "https://img.icons8.com/color/48/000000/windows-logo.png",
     name: "Windows XP",
     type: "Stable",
     build: "NT 5.1",
