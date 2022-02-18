@@ -8,7 +8,7 @@
     //text.search(item);
   //} sad :(
 </script>
-  <p>This is the beta version of WinInfo, expect to encounter issues</p>
+  <p>This is the beta version of WinInfo, expect to encounter issues</p><a href="https://osinfo.vercel.app">Stable Version</a>
   <hr>
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
