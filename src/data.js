@@ -4,6 +4,7 @@ var win10_download_default = "https://microsoft.com/software-download/windows10"
 var ubuntu_download_default = "https://ubuntu.com"
 var fedora_download_default = "https://getfedora.org"
 var unsupported_download_default = "https://example.org"
+var logo_apple_default = "https://img.icons8.com/ios-filled/50/000000/mac-os.png"
 
 let oslist = [
   {
@@ -126,6 +127,17 @@ let oslist = [
     eol: "December 2022",
     platform: "x32, x64, arm64",
     download: fedora_download_default,
+  },
+  {
+    logo: logo_apple_default,
+    name: "WatchOS 8.4.2",
+    type: "Stable",
+    build: "8.4.2",
+    codename: "N/A",
+    rel: "September 20, 2021",
+    eol: "N/A",
+    platform: "N/A",
+    download: unsupported_download_default,
   },
 ];
 export default oslist;
