@@ -159,7 +159,7 @@ let oslist = [
     rel: "June 2021",
     eol: "N/A",
     platform: "arm64",
-    download: unsupported_software_default,
+    download: unsupported_download_default,
   },
 ];
 export default oslist;
