@@ -101,5 +101,15 @@ let oslist = [
     eol: "January 2022",
     platform: "x64, x32, arm64",
   },
+  {
+    logo: logo_linux_default,
+    name: "Fedora 35",
+    type: "Stable",
+    build: "35.0",
+    codename: "N/A",
+    rel: "November 2, 2021",
+    eol: "December 2022",
+    platform: "x32, x64, arm64",
+  },
 ];
 export default oslist;
