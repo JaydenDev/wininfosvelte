@@ -10,7 +10,6 @@ specifiers:
   rollup-plugin-terser: ^7.0.0
   sirv-cli: ^1.0.0
   svelte: ^3.0.0
-  svelte-notifications: ^0.9.91
 
 dependencies:
   sirv-cli: 1.0.14
@@ -24,7 +23,6 @@ devDependencies:
   rollup-plugin-svelte: 7.1.0_rollup@2.62.0+svelte@3.44.3
   rollup-plugin-terser: 7.0.2_rollup@2.62.0
   svelte: 3.44.3
-  svelte-notifications: 0.9.93
 
 packages:
 
@@ -616,10 +614,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       has-flag: 4.0.0
-    dev: true
-
-  /svelte-notifications/0.9.93:
-    resolution: {integrity: sha512-xtgBT653R8j3KzKhrRdnZKhdcgi22RbN27dvn4GSzf6Mw5ESOFj+j8tNe1FDaeA/dU+r2r2ZsG2rvCqLDsZ4ow==}
     dev: true
 
   /svelte/3.44.3:

@@ -1,7 +1,6 @@
 <script>
   import oslist from "./data";
   import themelist from "./themelist";
-  import Notifications from "svelte-notifications";
   let selectedTheme = "w11dark";
 </script>
 
