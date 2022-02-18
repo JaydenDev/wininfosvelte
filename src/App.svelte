@@ -87,8 +87,8 @@
   }
   .card {
     font-size: 12pt;
-    height: 50%;
-    width: 65%;
+    height: fit-content;
+    width: fit-content;
     background-color: white;
     border-radius: 5pt;
     color: black;
