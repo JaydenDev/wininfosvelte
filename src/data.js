@@ -4,7 +4,7 @@ var win10_download_default = "https://microsoft.com/software-download/windows10"
 var ubuntu_download_default = "https://ubuntu.com"
 var fedora_download_default = "https://getfedora.org"
 var unsupported_download_default = "https://example.org"
-var logo_apple_default = "https://img.icons8.com/ios-filled/50/000000/mac-os.png"
+var logo_apple_default = "https://img.icons8.com/ios/50/000000/mac-os--v1.png"
 
 let oslist = [
   {
