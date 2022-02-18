@@ -23,16 +23,18 @@
     </tr>
     {#each oslist as os}
     <tr>
-      <!-- svelte-ignore a11y-missing-attribute -->
-      <td><img src={os.logo} length=40 width=40></td>
-      <td>{os.name}</td>
-      <td>{os.type}</td>
-      <td>{os.build}</td>
-      <td>{os.rel}</td>
-      <td>{os.codename}</td>
-      <td>{os.eol}</td>
-      <td>{os.platform}</td>
-      <td><a href={os.download}>Download</a>
+      <div id={os.codename}>
+        <!-- svelte-ignore a11y-missing-attribute -->
+        <td><img src={os.logo} length=40 width=40></td>
+        <td>{os.name}</td>
+        <td>{os.type}</td>
+        <td>{os.build}</td>
+        <td>{os.rel}</td>
+        <td>{os.codename}</td>
+        <td>{os.eol}</td>
+        <td>{os.platform}</td>
+        <td><a href={os.download}>Download</a>
+      </div>
     </tr>
     {/each}
   </table>
