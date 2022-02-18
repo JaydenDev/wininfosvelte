@@ -4,7 +4,7 @@
   let selectedTheme = "w11dark";
 </script>
 
-<div class="container {selectedTheme}">
+<div class="container{selectedTheme}">
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
   <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
@@ -15,7 +15,7 @@
       <option>{os.name}</option>
   {/each}
   </datalist>
-  <div class="card {selectedTheme}">
+  <div class="card{selectedTheme}">
   <table border=1 frame=void rules=rows>
     <tr>
       <th> </th>
