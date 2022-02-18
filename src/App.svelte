@@ -57,15 +57,10 @@
     width: 100px;
     padding-bottom: 4pt;
     padding-top: 4pt;
-    text-align: center;
   }
   
   * {
     color: white;
-  }
-  
-  hr {
-    margin-left: 20px;
   }
   
   .container {
