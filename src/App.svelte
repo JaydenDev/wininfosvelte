@@ -10,6 +10,7 @@
 </script>
   <p>This is the beta version of WinInfo, expect to encounter issues</p><a href="https://osinfo.vercel.app">Stable Version</a>
   <hr>
+<div style="display: flex;">
   <div style="background-color: crimson; width: fit-content; width: fit-content; color: white;">
     <h1> Warning to MacOS Catalina Users </h1>
     <p> MacOS Catalina hits EOL in 9 months </p>
@@ -18,6 +19,7 @@
     <h1> Warning to Windows 10 Users </h1>
     <p> Windows 10 hits EOL in 3 years, Computer "can't" run Windows 11? There's a solution! <a href="https://github.com/AveYo/MediaCreationTool.bat">here!</a></p>
  </div>
+</div>
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
   <br>
