@@ -1,6 +1,5 @@
 <script>
   import osListImport from "./data";
-  import themelist from "./themelist";
   let selectedTheme = "w11dark";
 
   let oslist = osListImport;
