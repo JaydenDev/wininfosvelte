@@ -8,8 +8,6 @@
     //text.search(item);
   //} sad :(
 </script>
-  <p>This is the beta version of WinInfo, expect to encounter issues</p><a href="https://osinfo.vercel.app">Stable Version</a>
-  <hr>
 <div style="display: flex;">
   <div style="background-color: crimson; width: fit-content; width: fit-content; color: white;">
     <h1> Warning to MacOS Catalina Users </h1>
