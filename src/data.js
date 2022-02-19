@@ -184,5 +184,16 @@ let oslist = [
     platform: "Unknown",
     download: ubuntu_download_default,
   },
+  {
+    logo: logo_apple_default,
+    name: "MacOS 12.2.1",
+    type: "Stable",
+    build: "12.2.1",
+    codename: "Monterey",
+    rel: "2021",
+    eol: "N/A",
+    platform: "arm64",
+    download: unsupported_download_default,
+  },
 ];
 export default oslist;
