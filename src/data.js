@@ -173,5 +173,16 @@ let oslist = [
     platform: "x86_64, 32",
     download: unsupported_download_default,
   },
+  {
+    logo: logo_ubuntu_default,
+    name: "Ubuntu 22.04",
+    type: "Beta",
+    build: "22.04",
+    codename: "Jammy JellyFish",
+    rel: "April 2022",
+    eol: "N/A",
+    platform: "Unknown",
+    download: ubuntu_download_default,
+  },
 ];
 export default oslist;
