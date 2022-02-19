@@ -9,7 +9,7 @@ specifiers:
   rollup-plugin-svelte: ^7.0.0
   rollup-plugin-terser: ^7.0.0
   sirv-cli: ^1.0.0
-  svelte: ^3.0.0
+  svelte: ^3.46.4
 
 dependencies:
   sirv-cli: 1.0.14
@@ -20,9 +20,9 @@ devDependencies:
   rollup: 2.62.0
   rollup-plugin-css-only: 3.1.0_rollup@2.62.0
   rollup-plugin-livereload: 2.0.5
-  rollup-plugin-svelte: 7.1.0_rollup@2.62.0+svelte@3.44.3
+  rollup-plugin-svelte: 7.1.0_rollup@2.62.0+svelte@3.46.4
   rollup-plugin-terser: 7.0.2_rollup@2.62.0
-  svelte: 3.44.3
+  svelte: 3.46.4
 
 packages:
 
@@ -494,7 +494,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /rollup-plugin-svelte/7.1.0_rollup@2.62.0+svelte@3.44.3:
+  /rollup-plugin-svelte/7.1.0_rollup@2.62.0+svelte@3.46.4:
     resolution: {integrity: sha512-vopCUq3G+25sKjwF5VilIbiY6KCuMNHP1PFvx2Vr3REBNMDllKHFZN2B9jwwC+MqNc3UPKkjXnceLPEjTjXGXg==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -504,7 +504,7 @@ packages:
       require-relative: 0.8.7
       rollup: 2.62.0
       rollup-pluginutils: 2.8.2
-      svelte: 3.44.3
+      svelte: 3.46.4
     dev: true
 
   /rollup-plugin-terser/7.0.2_rollup@2.62.0:
@@ -616,8 +616,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte/3.44.3:
-    resolution: {integrity: sha512-aGgrNCip5PQFNfq9e9tmm7EYxWLVHoFsEsmKrtOeRD8dmoGDdyTQ+21xd7qgFd8MNdKGSYvg7F9dr+Tc0yDymg==}
+  /svelte/3.46.4:
+    resolution: {integrity: sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==}
     engines: {node: '>= 8'}
     dev: true
 
