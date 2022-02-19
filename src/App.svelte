@@ -1,50 +1,76 @@
 <script>
-  import oslist from "./data";
-  import themelist from "./themelist";
+  import osListImport from "./data";
   let selectedTheme = "w11dark";
-  
-  //function itemSel() {
-    //var item = document.getElementById("searchbox").value;
-    //text.search(item);
-  //} sad :(
+
+  let oslist = osListImport;
+  oslist.forEach((os) => {
+    os.show = true;
+  });
+
+  const handleInput = (e) => {
+    console.log(e.target.value);
+    if (!e.target.value) {
+      osListImport.forEach((os, i) => {
+        oslist[i].show = true;
+      });
+    }
+    osListImport.forEach((os, i) => {
+      if (os.name.toLowerCase().includes(e.target.value.toLowerCase())) {
+        oslist[i].show = true;
+      } else {
+        oslist[i].show = false;
+      }
+    });
+  };
 </script>
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
-  <br>
-  <!-- webdev03/god286, I can't get any of this to work, please fix sad D:
-  <input placeholder="Search OS" style="width: 50vw; color: black; border-radius: 5pt; outline: none;" type="text" id="searchbox" name="searchbox" list="osdatlist"> <button onClick="itemSel()" style="width: 50vw">Search</button>
+  <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
+  <br />
+  <input
+    placeholder="Search OS"
+    on:input={handleInput}
+    style="color: black;"
+    type="text"
+    id="searchbox"
+    name="searchbox"
+    list="osdatlist"
+  />
   <datalist id="osdatlist">
-  {#each oslist as os}
-      <option>{os.name}</option>
-  {/each}
-  </datalist> -->
-  <table border=1 frame=void rules=rows>
-    <tr>
-      <th> </th>
-      <th>Name</th>
-      <th>Type/Channel</th>
-      <th>Build</th>
-      <th>Released</th>
-      <th>Codename</th>
-      <th>EOL</th>
-      <th>Platform</th>
-      <th>Download</th>
-    </tr>
     {#each oslist as os}
-    <tr>
-        <!-- svelte-ignore a11y-missing-attribute -->
-        <td><img src={os.logo} length=40 width=40></td>
-        <td>{os.name}</td>
-        <td>{os.type}</td>
-        <td>{os.build}</td>
-        <td>{os.rel}</td>
-        <td>{os.codename}</td>
-        <td>{os.eol}</td>
-        <td>{os.platform}</td>
-        <td><a href={os.download}>Download</a>
-      </tr>
+      <option>{os.name}</option>
     {/each}
-  </table>
+  </datalist>
+  <div class="card {selectedTheme}">
+    <table border="1" frame="void" rules="rows">
+      <tr>
+        <th />
+        <th>Name</th>
+        <th>Type/Channel</th>
+        <th>Build</th>
+        <th>Released</th>
+        <th>Codename</th>
+        <th>EOL</th>
+        <th>Platform</th>
+        <th>Download</th>
+      </tr>
+      {#each oslist as os}
+        <tr style:display={os.show ? "" : "none"}>
+          <!-- svelte-ignore a11y-missing-attribute -->
+          <td><img src={os.logo} length="40" width="40" /></td>
+          <td>{os.name}</td>
+          <td>{os.type}</td>
+          <td>{os.build}</td>
+          <td>{os.rel}</td>
+          <td>{os.codename}</td>
+          <td>{os.eol}</td>
+          <td>{os.platform}</td>
+          <td><a href={os.download}>Download</a> </td></tr
+        >
+      {/each}
+    </table>
+  </div>
+</div>
 <!-- <label for="theme">Choose a theme: </label>
 <select name="theme" id="theme" bind:value={selectedTheme}>
   {#each themelist as theme}
@@ -64,7 +90,8 @@
     border-spacing: 0;
     width: fit-content;
   }
-  td, th {
+  td,
+  th {
     width: 100px;
     padding-bottom: 4pt;
     padding-top: 4pt;
@@ -78,14 +105,14 @@
   * {
     color: white;
   }
-  
+
   .container {
     width: 100%;
     min-height: 100%;
     padding: none;
     margin: none;
   }
-  
+
   .header {
     text-align: center;
     font-size: 12pt;
