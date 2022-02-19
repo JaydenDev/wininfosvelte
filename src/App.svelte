@@ -23,8 +23,6 @@
     });
   };
 </script>
-
-<div class="container {selectedTheme}">
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
   <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
@@ -73,7 +71,6 @@
     </table>
   </div>
 </div>
-
 <!-- <label for="theme">Choose a theme: </label>
 <select name="theme" id="theme" bind:value={selectedTheme}>
   {#each themelist as theme}
@@ -84,7 +81,9 @@
   /* button {
     border-radius: 5pt;
   } */
-
+  body {
+    background-color: #0D1117;
+  }
   table {
     table-layout: fixed;
     border-collapse: collapse;

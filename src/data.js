@@ -4,7 +4,8 @@ var win10_download_default = "https://microsoft.com/software-download/windows10"
 var ubuntu_download_default = "https://ubuntu.com"
 var fedora_download_default = "https://getfedora.org"
 var unsupported_download_default = "https://example.org"
-var logo_apple_default = "https://img.icons8.com/ios-filled/50/000000/mac-os.png"
+var logo_apple_default = "https://img.icons8.com/color/48/000000/mac-os--v1.png"
+var logo_ubuntu_default = "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
 
 let oslist = [
   {
@@ -96,7 +97,7 @@ let oslist = [
     download: unsupported_download_default,
   },
   {
-    logo: logo_linux_default,
+    logo: logo_ubuntu_default,
     name: "Ubuntu 20.04",
     type: "LTS",
     build: "UBULINUX",
@@ -107,7 +108,7 @@ let oslist = [
     download: ubuntu_download_default,
   },
   {
-    logo: logo_linux_default,
+    logo: logo_ubuntu_default,
     name: "Ubuntu 21.04",
     type: "LTS",
     build: "UBULINUX",
