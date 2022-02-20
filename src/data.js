@@ -1,13 +1,13 @@
-var logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
-var win11_download_default = "https://microsoft.com/software-download/windows11"
-var win10_download_default = "https://microsoft.com/software-download/windows10"
-var ubuntu_download_default = "https://ubuntu.com"
-var fedora_download_default = "https://getfedora.org"
-var unsupported_download_default = "https://example.org"
-var logo_apple_default = "https://img.icons8.com/color/48/000000/mac-os--v1.png"
-var logo_ubuntu_default = "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
+const logo_linux_default = "https://img.icons8.com/color/48/000000/linux--v1.png"
+const win11_download_default = "https://microsoft.com/software-download/windows11"
+const win10_download_default = "https://microsoft.com/software-download/windows10"
+const ubuntu_download_default = "https://ubuntu.com"
+const fedora_download_default = "https://getfedora.org"
+const unsupported_download_default = "https://example.org"
+const logo_apple_default = "https://img.icons8.com/color/48/000000/mac-os--v1.png"
+const logo_ubuntu_default = "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
 
-let oslist = [
+const oslist = [
   {
     logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
     name: "Windows 11",
