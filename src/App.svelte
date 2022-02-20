@@ -40,7 +40,7 @@
     placeholder="Search OS"
     on:input={handleInput}
     style="color: black;
-           width 100%;"
+           width: 100%;"
     type="text"
     id="searchbox"
     name="searchbox"
