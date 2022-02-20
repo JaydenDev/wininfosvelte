@@ -8,7 +8,6 @@
   });
 
   const handleInput = (e) => {
-    console.log(e.target.value);
     if (!e.target.value) {
       osListImport.forEach((os, i) => {
         oslist[i].show = true;
