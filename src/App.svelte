@@ -22,13 +22,12 @@
     });
   };
 </script>
-<div style="display: flex;">
-  <div style="background-color: crimson; width: fit-content; width: fit-content; color: white;">
+<div style="display: flex; gap: 10px;">
+  <div class="warning">
     <h1> Warning to MacOS Catalina Users </h1>
     <p> MacOS Catalina hits EOL in 9 months </p>
  </div>
-  &nbsp;
-  <div style="background-color: crimson; width: fit-content; width: fit-content; color: white;">
+  <div class="warning">
     <h1> Warning to Windows 10 Users </h1>
     <p> Windows 10 hits EOL in 3 years, Computer "can't" run Windows 11? There's a solution! <a href="https://github.com/AveYo/MediaCreationTool.bat">here!</a></p>
  </div>
@@ -53,7 +52,7 @@
     {/each}
   </datalist>
   <div class="card {selectedTheme}">
-    <table border="1" frame="void" rules="rows">
+    <table border="1" frame="void" rules="rows" class="main-table">
       <tr>
         <th />
         <th>Name</th>
@@ -92,10 +91,7 @@
     border-radius: 5pt;
   } */
   table {
-    table-layout: fixed;
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: fit-content;
+    overflow-x: scroll;
   }
   td,
   th {
@@ -135,5 +131,12 @@
     border-radius: 5pt;
     color: black;
     padding: 1pt;
+  }
+  .warning {
+    background-color: crimson;
+    width: fit-content;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
   }
 </style>
