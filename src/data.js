@@ -184,6 +184,5 @@ let oslist = [
     platform: "Unknown",
     download: ubuntu_download_default,
   },
-  {
 ];
 export default oslist;
