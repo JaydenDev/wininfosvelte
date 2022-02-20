@@ -34,7 +34,6 @@
 </div>
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
-  <a href="https://forms.gle/4ffTLwd8raVbgrNJ7">Submit OS</a>
   <br />
   <input
     placeholder="Search OS"
