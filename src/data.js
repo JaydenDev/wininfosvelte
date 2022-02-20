@@ -3,7 +3,7 @@ var win11_download_default = "https://microsoft.com/software-download/windows11"
 var win10_download_default = "https://microsoft.com/software-download/windows10"
 var ubuntu_download_default = "https://ubuntu.com"
 var fedora_download_default = "https://getfedora.org"
-var unsupported_download_default = "https://example.org"
+var unsupported_download_default = javascript:void(0)
 var logo_apple_default = "https://img.icons8.com/color/48/000000/mac-os--v1.png"
 var logo_ubuntu_default = "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
 
