@@ -16,7 +16,7 @@ let oslist = [
     codename: "Dev",
     rel: "N/A",
     eol: "N/A",
-    platform: "x64, ARM",
+    platform: "x86-64, ARM64",
     download: unsupported_download_default,
   },
   {
@@ -27,7 +27,7 @@ let oslist = [
     codename: "Sun Valley",
     rel: "2021",
     eol: "N/A",
-    platform: "x64, ARM",
+    platform: "x86-64, ARM64",
     download: win11_download_default,
   },
   {
@@ -38,7 +38,7 @@ let oslist = [
     codename: "N/A",
     rel: "2021",
     eol: "2025",
-    platform: "x64, x32, ARM",
+    platform: "x86-64, x86, ARM64",
     download: win10_download_default,
   },
   {
@@ -49,7 +49,7 @@ let oslist = [
     codename: "Redstone",
     rel: "2015",
     eol: "2025",
-    platform: "x64, x32, ARM",
+    platform: "x86-64, x86, ARM64",
     download: win10_download_default,
   },
   {
@@ -60,7 +60,7 @@ let oslist = [
     codename: "RT",
     rel: "October 26th, 2012",
     eol: "January 10th, 2023",
-    platform: "ARM",
+    platform: "ARM32 (ARMv7)",
     download: unsupported_download_default,
   },
   {
@@ -71,7 +71,7 @@ let oslist = [
     codename: "Blue",
     rel: "2013",
     eol: "2023",
-    platform: "x64, x32 ARM",
+    platform: "x86-64, x86",
     download: unsupported_download_default,
   },
   {
@@ -82,7 +82,7 @@ let oslist = [
     codename: "Blackcomb",
     rel: "2009",
     eol: "2020",
-    platform: "x64, x32",
+    platform: "x86-64, x86",
     download: unsupported_download_default,
   },
   {
@@ -93,7 +93,7 @@ let oslist = [
     codename: "Whistler",
     rel: "2001",
     eol: "2014",
-    platform: "x64, x32",
+    platform: "x86-64, x86",
     download: unsupported_download_default,
   },
   {
@@ -104,7 +104,7 @@ let oslist = [
     codename: "Focal Fossa",
     rel: "April 2020",
     eol: "April 2030",
-    platform: "x64, x32, arm64",
+    platform: "x86-64, x86, ARM64",
     download: ubuntu_download_default,
   },
   {
@@ -115,7 +115,7 @@ let oslist = [
     codename: "Hirsute Hippo",
     rel: "April 2021",
     eol: "January 2022",
-    platform: "x64, x32, arm64",
+    platform: "x86-64, x86, ARM64",
     download: ubuntu_download_default,
   },
   {
@@ -126,7 +126,7 @@ let oslist = [
     codename: "N/A",
     rel: "November 2, 2021",
     eol: "December 2022",
-    platform: "x32, x64, arm64",
+    platform: "x86-64, x86, ARM64",
     download: fedora_download_default,
   },
   {
@@ -137,18 +137,18 @@ let oslist = [
     codename: "N/A",
     rel: "September 20, 2021",
     eol: "N/A",
-    platform: "N/A",
+    platform: "Apple Watch",
     download: unsupported_download_default,
   },
   {
     logo: logo_apple_default,
-    name: "MacOS 12.1",
+    name: "MacOS 12",
     type: "Stable",
-    build: "OSX12_1",
+    build: "12.2.1",
     codename: "Monterey",
     rel: "October 2021",
     eol: "N/A",
-    platform: "arm64",
+    platform: "x86-64, ARM64",
     download: unsupported_download_default,
   },
   {
@@ -159,18 +159,18 @@ let oslist = [
     codename: "N/A",
     rel: "June 2021",
     eol: "N/A",
-    platform: "arm64",
+    platform: "ARM64 (iPad/iPhone)",
     download: unsupported_download_default,
   },
   {
     logo: logo_apple_default,
-    name: "MacOS Catalina",
+    name: "MacOS 10.15",
     type: "Stable",
     build: "10.15.7",
     codename: "Catalina",
     rel: "October 2019",
     eol: "November 2022",
-    platform: "x86_64, 32",
+    platform: "x86-64",
     download: unsupported_download_default,
   },
   {
@@ -185,15 +185,5 @@ let oslist = [
     download: ubuntu_download_default,
   },
   {
-    logo: logo_apple_default,
-    name: "MacOS 12.2.1",
-    type: "Stable",
-    build: "12.2.1",
-    codename: "Monterey",
-    rel: "2021",
-    eol: "N/A",
-    platform: "arm64",
-    download: unsupported_download_default,
-  },
 ];
 export default oslist;
