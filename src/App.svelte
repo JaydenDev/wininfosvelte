@@ -51,7 +51,7 @@
     {/each}
   </datalist>
   <div class="card {selectedTheme}">
-    <table border="1" frame="void" rules="rows" class="main-table">
+    <table border="1" frame="void" rules="rows">
       <tr>
         <th />
         <th>Name</th>
@@ -90,7 +90,10 @@
     border-radius: 5pt;
   } */
   table {
-    overflow-x: scroll;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: fit-content;
   }
   td,
   th {
