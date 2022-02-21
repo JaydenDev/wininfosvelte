@@ -3,7 +3,7 @@ const win11_download_default = "https://microsoft.com/software-download/windows1
 const win10_download_default = "https://microsoft.com/software-download/windows10"
 const ubuntu_download_default = "https://ubuntu.com"
 const fedora_download_default = "https://getfedora.org"
-const unsupported_download_default = "https://example.org"
+const unsupported_download_default = ""
 const logo_apple_default = "https://img.icons8.com/color/48/000000/mac-os--v1.png"
 const logo_ubuntu_default = "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
 
