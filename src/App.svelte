@@ -23,6 +23,8 @@
     });
   };
 </script>
+<!-- analytics -->
+<script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"JaydenDev",utcoffset:"-6"}))};sessionStorage.setItem("_swa","1");</script>
 <div style="display: flex;">
   <div style="background-color: crimson; width: fit-content; width: fit-content; color: white;">
     <h1> Warning to MacOS Catalina Users </h1>
