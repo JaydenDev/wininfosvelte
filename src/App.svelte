@@ -26,7 +26,7 @@
 <div style="display: flex;">
   <div style="background-color: crimson; width: fit-content; width: fit-content; color: white;">
     <h1> Warning to MacOS Catalina Users </h1>
-    <p> MacOS Catalina hits EOL in 9 months </p>
+    <p> MacOS Catalina hits EOL in 9 months. Big Sur or Monterey not supported? Use <a href=https://dortania.github.io/OpenCore-Legacy-Patcher>Open Core Legacy Patcher.</a></p>
  </div>
   &nbsp;
   <div style="background-color: crimson; width: fit-content; width: fit-content; color: white;">
