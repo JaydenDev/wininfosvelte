@@ -73,7 +73,7 @@
     </ul>
   </div>
 </nav>
-
+<br>
 <div style="display: flex; gap: 10px;">
   <div class="warning">
     <h1> Warning to MacOS Catalina Users </h1>
