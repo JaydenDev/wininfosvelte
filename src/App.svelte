@@ -29,14 +29,14 @@
 
   // List of navigation items
   const navItems = [
-    { label: "logo", href: "#" },
-    { label: "Item 1", href: "#" },
-    { label: "Item 2", href: "#" },
-    { label: "Item 3", href: "#" },
-    { label: "Item 4", href: "#" },
-    { label: "Item 5", href: "#" },
-    { label: "Item 6", href: "#" },
-    { label: "Item 7", href: "#" }
+    { label: "WinInfo", href: "/" },
+    //{ label: "Item 1", href: "#" },
+    //{ label: "Item 2", href: "#" },
+    //{ label: "Item 3", href: "#" },
+    //{ label: "Item 4", href: "#" },
+    //{ label: "Item 5", href: "#" },
+    //{ label: "Item 6", href: "#" },
+    //{ label: "Item 7", href: "#" }
   ];
 
   // Mobile menu click event handler
