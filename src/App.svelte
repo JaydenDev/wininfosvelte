@@ -74,15 +74,14 @@
   </div>
 </nav>
 <br>
-<div style="display: flex; gap: 10px;">
-  <div class="warning">
-    <h1> Warning to MacOS Catalina Users </h1>
-    <p> MacOS Catalina hits EOL in 9 months </p>
- </div>
-  <div class="warning">
-    <h1> Warning to Windows 10 Users </h1>
-    <p> Windows 10 hits EOL in 3 years, Computer "can't" run Windows 11? There's a solution! <a href="https://github.com/AveYo/MediaCreationTool.bat">here!</a></p>
- </div>
+<div class="card" style="text-align: center">
+	<h1> Warning to MacOS Catalina Users </h1>
+	<p> MacOS Catalina hits EOL in 9 months </p>
+	</div>
+<br>
+<div class="card" style="text-align: center">
+	<h1> Warning to Windows 10 Users </h1>
+	<p> Windows 10 hits EOL in 3 years, Computer "can't" run Windows 11? There's a solution! <a href="https://github.com/AveYo/MediaCreationTool.bat">here!</a></p>
 </div>
   <h1>OSInfo</h1>
   <p>The place to go for everything OS related</p>
