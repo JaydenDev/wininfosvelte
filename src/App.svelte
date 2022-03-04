@@ -1,5 +1,5 @@
 <script>
-  import osListImport from "https://jaydendev.github.io/remote/osinfo/dat/data";
+  import osListImport from "https://raw.githubusercontent.com/JaydenDev/OSInfo-Data/main/data.js";
   let selectedTheme = "w11dark";
 
   let oslist = osListImport;
