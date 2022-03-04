@@ -8,6 +8,17 @@ const logo_apple_default = "https://img.icons8.com/color/48/000000/mac-os--v1.pn
 const logo_ubuntu_default = "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
 
 const oslist = [
+    {
+    logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
+    name: "Windows 11",
+    type: "Dev",
+    build: "22567.1",
+    codename: "Dev",
+    rel: "N/A",
+    eol: "N/A",
+    platform: "x64, ARM",
+    download: unsupported_download_default,
+  },
   {
     logo: "https://img.icons8.com/fluency/48/000000/windows-11.png",
     name: "Windows 11",
