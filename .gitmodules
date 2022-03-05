@@ -1,0 +1,3 @@
+[submodule "OSInfo-Data"]
+	path = OSInfo-Data
+	url = https://github.com/JaydenDev/OSInfo-Data/
