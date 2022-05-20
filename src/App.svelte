@@ -1,6 +1,7 @@
 <script>
   import osListImport from "../OSInfo-Data/data";
   let selectedTheme = "w11dark";
+  import "./out.css"
 
   let oslist = osListImport;
   oslist.forEach((os) => {
@@ -21,25 +22,38 @@
       }
     });
   };
+  function catalina() {
+    if (navigator.userAgent.includes("Macintosh")) {
+      document.getElementById("catalinaDet").classList.remove("hidden");
+      console.log("DEBUG: Mac OS X Catalina detected.");
+      return true;
+    } else {
+      console.log("DEBUG: Alternate Detected, Operation Ignored.")
+      return false;
+    }
+  }
+  catalina()
 </script>
-<div style="display: flex; gap: 10px;">
-  <div class="warning">
+<body class="text-white">
+<div class="">
+  <div class="bg-emerald-500 flex space-x-2 m-2 rounded-lg p-8">
+    <h1 class="text-4xl">OSInfo</h1>
+    <p class="text-4xl">The place to go for everything OS related</p>
+  </div>
+  <br />
+  <div id="catalinaDet" class="hidden bg-red-500 p-3 text-white rounded-lg m-2 p">
     <h1> Warning to MacOS Catalina Users </h1>
-    <p> MacOS Catalina hits EOL in 9 months </p>
+    <p> MacOS Catalina hits EOL in 5 and a half months </p>
  </div>
-  <div class="warning">
+  <div id="win10det" class="hidden bg-red-500 p-3 text-white rounded-lg m-2 p">
     <h1> Warning to Windows 10 Users </h1>
-    <p> Windows 10 hits EOL in 3 years, Computer "can't" run Windows 11? There's a solution! <a href="https://github.com/AveYo/MediaCreationTool.bat">here!</a></p>
+    <p> Windows 10 hits EOL in 1 year, Computer "can't" run Windows 11? There's a solution! <a href="https://github.com/AveYo/MediaCreationTool.bat">here!</a></p>
  </div>
 </div>
-  <h1>OSInfo</h1>
-  <p>The place to go for everything OS related</p>
-  <br />
   <input
     placeholder="Search OS"
     on:input={handleInput}
-    style="color: black;
-           width: 100%;"
+    class="p-3 rounded-lg m-2 w-[95vw]"
     type="text"
     id="searchbox"
     name="searchbox"
@@ -50,8 +64,8 @@
       <option>{os.name}</option>
     {/each}
   </datalist>
-  <div class="card {selectedTheme}">
-    <table border="1" frame="void" rules="rows">
+  <div class="bg-gray-800 text-xl rounded-lg m-8 p-8">
+    <table  border="1" frame="void" rules="rows">
       <tr>
         <th />
         <th>Name</th>
@@ -77,68 +91,15 @@
           <td><a href={os.download}>Download</a> </td></tr
         >
       {/each}
+      <style>
+        body {
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-attachment: fixed;
+          background-image: url('https://jdev.eu.org/img/bg.svg')
+        }
+      </style>
     </table>
   </div>
-<!-- <label for="theme">Choose a theme: </label>
-<select name="theme" id="theme" bind:value={selectedTheme}>
-  {#each themelist as theme}
-    <option value={theme}>{theme}</option>
-  {/each}
-</select> -->
-<style>
-  /* button {
-    border-radius: 5pt;
-  } */
-  table {
-    table-layout: fixed;
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: fit-content;
-  }
-  td,
-  th {
-    width: 100px;
-    padding-bottom: 4pt;
-    padding-top: 4pt;
-  }
-  td:hover {
-    transform: scale(1.1);
-  }
-  th:hover {
-    transform: scale(1.1);
-  }
-  * {
-    color: white;
-  }
-
-  .container {
-    width: 100%;
-    min-height: 100%;
-    padding: none;
-    margin: none;
-  }
-
-  .header {
-    text-align: center;
-    font-size: 12pt;
-    padding-bottom: 2pt;
-    width: 35%;
-    border-radius: 5pt;
-  }
-  .card {
-    font-size: 12pt;
-    height: fit-content;
-    width: fit-content;
-    background-color: white;
-    border-radius: 5pt;
-    color: black;
-    padding: 1pt;
-  }
-  .warning {
-    background-color: crimson;
-    width: fit-content;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-  }
-</style>
+</body>
