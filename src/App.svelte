@@ -1,6 +1,5 @@
 <script>
   import osListImport from "../OSInfo-Data/data";
-  let selectedTheme = "w11dark";
   import "./out.css"
 
   let oslist = osListImport;
@@ -22,6 +21,25 @@
       }
     });
   };
+  const handleAlert = () => {
+    let alert = document.querySelector(".alert");
+    alert.classList.add('hidden');
+    if (oslist.every((os) => os.show === false)) {
+      alert.style.display = "block";
+      let table = document.querySelector("#dat");
+      table.classList.add('hidden')
+    } else {
+      alert.style.display = "none";
+      let table = document.querySelector("#dat");
+      table.classList.add('hidden')
+    }
+    let input = document.querySelector("#searchbox");
+    if (!input.value) {
+      let table = document.querySelector("#dat");
+      table.classList.remove('hidden')
+    }
+  };
+
   function catalina() {
     if (navigator.userAgent.includes("Macintosh")) {
       document.getElementById("catalinaDet").classList.remove("hidden");
@@ -41,7 +59,7 @@
     <p class="text-4xl">The place to go for everything OS related</p>
   </div>
   <br />
-  <div id="catalinaDet" class="hidden bg-red-500 p-3 text-white rounded-lg m-2 p">
+  <div id="catalinaDet" class="hidden m-2 bg-red-500 p-3 text-white rounded-lg">
     <h1> Warning to MacOS Catalina Users </h1>
     <p> MacOS Catalina hits EOL in 5 and a half months </p>
  </div>
@@ -53,7 +71,8 @@
   <input
     placeholder="Search OS"
     on:input={handleInput}
-    class="p-3 rounded-lg m-2 w-[95vw]"
+    on:input={handleAlert}
+    class="p-3 rounded-lg text-black m-2 w-[95vw]"
     type="text"
     id="searchbox"
     name="searchbox"
@@ -64,8 +83,9 @@
       <option>{os.name}</option>
     {/each}
   </datalist>
-  <div class="bg-gray-800 text-xl rounded-lg m-8 p-8">
-    <table  border="1" frame="void" rules="rows">
+  <div class="text-white hidden bg-red-500 p-3 rounded-lg alert"><p>No results for query</p></div>
+  <div id="dat" class="bg-gray-800 text-xl rounded-lg m-8 p-8">
+    <table id="data-table" border="1" frame="void" rules="rows">
       <tr>
         <th />
         <th>Name</th>
@@ -101,5 +121,5 @@
         }
       </style>
     </table>
-  </div>
+    </div>
 </body>
