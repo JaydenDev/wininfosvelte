@@ -53,6 +53,11 @@
   catalina()
 </script>
 <body class="text-white">
+  <div id="loading" class="fixed items-center space-x-2 flex justify-center w-full h-full transition duration-500 bg-gray-900">
+    <h1 class="text-5xl text-center">Loading...</h1>
+    <br>
+    <svg class="animate-spin border-t-2 border-solid rounded-full h-16 w-16 border-l-white "></svg>
+  </div>
 <div class="">
   <div class="bg-emerald-500 flex space-x-2 m-2 rounded-lg p-8">
     <h1 class="text-4xl">OSInfo</h1>
@@ -113,13 +118,23 @@
       {/each}
       <style>
         body {
+          height: 100%;
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
           background-attachment: fixed;
           background-image: url('https://jdev.eu.org/img/bg.svg')
         }
+        #loading {
+          height: 100vh;
+        }
       </style>
     </table>
     </div>
+    {setTimeout(() => {
+      document.getElementById('loading').classList.add('opacity-0');
+      setTimeout(() => {
+        document.getElementById('loading').style.display = 'none';
+      }, 500);
+  }, 1000)}
 </body>
