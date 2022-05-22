@@ -50,8 +50,18 @@
       return false;
     }
   }
+  var blur = "0";
+  function supportsBlur() {
+    if (navigator.userAgent.includes("Chrome") || navigator.userAgent.includes("Safari") || navigator.userAgent.includes("Edg")) {
+      blur = true;
+    } else {
+      blur = false;
+    }
+  }
+  supportsBlur()
   catalina()
 </script>
+<p class="backdrop-blur-xl"></p>
 <body class="text-white">
   <div id="loading" class="fixed items-center space-x-2 flex justify-center w-full h-full transition duration-500 bg-gray-900">
     <h1 class="text-5xl text-center">Loading...</h1>
@@ -59,9 +69,18 @@
     <svg class="animate-spin border-t-2 border-solid rounded-full h-16 w-16 border-l-white "></svg>
   </div>
 <div class="">
-  <div class="bg-emerald-500 flex space-x-2 m-2 rounded-lg p-8">
+  <div class="bg-gray-800 flex space-x-[70vw] p-4">
     <h1 class="text-4xl">OSInfo</h1>
-    <p class="text-4xl">The place to go for everything OS related</p>
+    <input
+    placeholder="Search OS"
+    on:input={handleInput}
+    on:input={handleAlert}
+    class="p-2 rounded-lg mrl-[80vw] text-black w-fit"
+    type="text"
+    id="searchbox"
+    name="searchbox"
+    list="osdatlist"
+  />
   </div>
   <br />
   <div id="catalinaDet" class="hidden m-2 bg-red-500 p-3 text-white rounded-lg">
@@ -73,23 +92,13 @@
     <p> Windows 10 hits EOL in 1 year, Computer "can't" run Windows 11? There's a solution! <a href="https://github.com/AveYo/MediaCreationTool.bat">here!</a></p>
  </div>
 </div>
-  <input
-    placeholder="Search OS"
-    on:input={handleInput}
-    on:input={handleAlert}
-    class="p-3 rounded-lg text-black m-2 w-[95vw]"
-    type="text"
-    id="searchbox"
-    name="searchbox"
-    list="osdatlist"
-  />
   <datalist id="osdatlist">
     {#each oslist as os}
       <option>{os.name}</option>
     {/each}
   </datalist>
   <div class="text-white hidden bg-red-500 p-3 rounded-lg alert"><p>No results for query</p></div>
-  <div id="dat" class="bg-gray-800 text-xl rounded-lg m-8 p-8">
+  <div id="dat" class="bg-gray-800 backdrop-blur-xl text-xl rounded-lg my-1 mx-2 p-8 {blur ? 'bg-gray-800/80': 'bg-gray-800'}">
     <table id="data-table" border="1" frame="void" rules="rows">
       <tr>
         <th />
@@ -113,8 +122,7 @@
           <td>{os.codename}</td>
           <td>{os.eol}</td>
           <td>{os.platform}</td>
-          <td><a href={os.download}>Download</a> </td></tr
-        >
+          <td><a href={os.download}>Download</a> </td></tr>
       {/each}
       <style>
         body {
@@ -123,7 +131,7 @@
           background-repeat: no-repeat;
           background-position: center;
           background-attachment: fixed;
-          background-image: url('https://jdev.eu.org/img/bg.svg')
+          background-image: url('https://blogs.windows.com/wp-content/uploads/prod/sites/2/2021/10/Windows-11-Bloom-Screensaver-Dark-scaled.jpg')
         }
         #loading {
           height: 100vh;
@@ -137,4 +145,5 @@
         document.getElementById('loading').style.display = 'none';
       }, 500);
   }, 1000)}
+  {console.log(blur)}
 </body>
