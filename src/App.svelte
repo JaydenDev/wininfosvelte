@@ -31,7 +31,7 @@
     } else {
       alert.style.display = "none";
       let table = document.querySelector("#dat");
-      table.classList.add('hidden')
+      table.classList.remove('hidden')
     }
     let input = document.querySelector("#searchbox");
     if (!input.value) {
