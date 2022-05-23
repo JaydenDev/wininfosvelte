@@ -114,7 +114,7 @@
       {#each oslist as os}
         <tr style:display={os.show ? "" : "none"}>
           <!-- svelte-ignore a11y-missing-attribute -->
-          <td><img class="bg-gray-200 rounded-lg p-1" src={os.logo} length="40" width="40" /></td>
+          <td><img class="bg-gray-200 rounded-lg p-1" src={os.logo} length="30" width="30" /></td>
           <td>{os.name}</td>
           <td>{os.type}</td>
           <td>{os.build}</td>
