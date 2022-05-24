@@ -112,7 +112,15 @@
         <th>Download</th>
       </tr>
       {#each oslist as os}
-        <tr style:display={os.show ? "" : "none"}>
+
+        <tr
+        {#if os.support === false}
+          class="bg-red-500"
+        {:else}
+          class="bg-green-500"
+        {/if}
+
+        style:display={os.show ? "" : "none"}>
           <!-- svelte-ignore a11y-missing-attribute -->
           <td><img class="bg-gray-200 rounded-lg p-1" src={os.logo} length="40" width="40" /></td>
           <td>{os.name}</td>
