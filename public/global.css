@@ -37,11 +37,17 @@ input, button, select, textarea {
 	font-family: inherit;
 	font-size: inherit;
 	-webkit-padding: 0.4em 0;
-	padding: 0.4em;
+	padding: 1pt;
 	margin: 0 0 0.5em 0;
 	box-sizing: border-box;
 	border: 1px solid #ccc;
 	border-radius: 2px;
+}
+
+input {
+	display: fixed;
+	top: 0;
+	width: 100%;
 }
 
 input:disabled {
@@ -64,4 +70,14 @@ button:not(:disabled):active {
 
 button:focus {
 	border-color: #666;
+}
+
+img {
+	background-color: #FFFFFF;
+	padding: 1pt;
+	border-radius: 2pt;
+}
+
+tr:hover {
+	display: hidden;
 }

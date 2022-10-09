@@ -5,9 +5,11 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "tailwind": "tailwind -i style.css -o src/output.css --watch --minify",
     "start": "sirv public --no-clear"
   },
   "devDependencies": {
+    "concurently": "latest",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "rollup": "^2.3.4",
