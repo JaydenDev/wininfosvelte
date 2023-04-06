@@ -1,6 +1,5 @@
 <script>
   import osListImport from "./data";
-  let selectedTheme = "w11dark";
 
   let oslist = osListImport;
   oslist.forEach((os) => {
@@ -36,7 +35,7 @@
       <option>{os.name}</option>
     {/each}
   </datalist>
-  <div class="card {selectedTheme}">
+  <div class="card">
     <table border="1" frame="void" rules="rows">
       <tr>
         <th />

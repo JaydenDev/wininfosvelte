@@ -81,3 +81,11 @@ img {
 tr:hover {
 	display: hidden;
 }
+
+#searchbox {
+	border-radius: 10pt;
+	outline: none;
+	border: none;
+	padding: 4pt;
+	color: black;
+}
